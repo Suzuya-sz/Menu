@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylee.css">
-    <title>Document</title>
+    <title>Menuzin</title>
 </head>
 
 <body>
@@ -13,23 +13,29 @@
         <h1>Restaurante Divine</h1>
         <p>O melhor da cidade</p>
     </header>
+    <div class="carrinho">
+        🛒<span id="conta">0</span>
+    </div>
     <div class="cardapio">
         <h2>Entradas</h2>
         <div class="itens">
             <div class="item">
                 <img src="./img/fotoo.jpg" alt="foto de uma Bruschetta">
-                <h3>Bruschetta</h3>
+                <h3><a href="#">Bruschetta</a></h3>
                 <p>R$ 18,00</p>
+                <button class="add-to-cart">Adicionar</button>
             </div>
             <div class="item">
                 <img src="./img/sopa.jpg" alt="foto de uma Sopa">
-                <h3>Sopa do dia</h3>
+                <h3><a href="#">Sopa do dia</a></h3>
                 <p>R$12,00</p>
+                <button class="add-to-cart">Adicionar</button>
             </div>
             <div class="item">
-                <img src="./img/istockphoto-1454741285-612x612.jpg" alt="">
-                <h3>Salada verde</h3>
+                <img src="./img/istockphoto-1454741285-612x612.jpg" alt="Salada verde">
+                <h3><a href="#">Salada verde</a></h3>
                 <p>R$ 16,00</p>
+                <button class="add-to-cart">Adicionar</button>
             </div>
         </div>
     </div>
@@ -38,19 +44,22 @@
         <h2>Pratos principais</h2>
         <div class="itens">
             <div class="item">
-                <img src="./img/360_F_240991913_c22j6WvLgpqiUvjaLiLc5rh14WO8jShB.jpg" alt="Spaghetti à Bolonhesa">
-                <h3>Spaghetti à Bolonhesa</h3>
+                <img src="./img/360_F_240991913_c22j6WvLgpqiUvjaLiLc5rh14WO8jShB.jpg" alt="Espaguete a Bolonhesa">
+                <h3><a href="#">Espaguete bolonhesa</a></h3>
                 <p>R$ 42,00</p>
+                <button class="add-to-cart">Adicionar</button>
             </div>
             <div class="item">
                 <img src="./img/fraNBGO.jpg" alt="Frango grelhado">
-                <h3>Frango grelhado</h3>
+                <h3><a href="#">Frango grelhado</a></h3>
                 <p>R$ 36,00</p>
+                <button class="add-to-cart">Adicionar</button>
             </div>
             <div class="item">
                 <img src="./img/images.jpeg" alt="Risoto de cogumelos">
-                <h3>Risoto de Cogumelos</h3>
+                <h3><a href="#">Risoto de Cogumelos</a></h3>
                 <p>R$ 38,00</p>
+                <button class="add-to-cart">Adicionar</button>
             </div>
         </div>
     </div>
@@ -59,25 +68,35 @@
         <div class="itens">
             <div class="item">
                 <img src="./img/transferir.jpeg" alt="Refrigerante">
-                <h3>Refrigerante</h3>
+                <h3><a href="#">Refrigerante</a></h3>
                 <p>R$ 8,00</p>
+                <button class="add-to-cart">Adicionar</button>
             </div>
             <div class="item">
                 <img src="./img/transferir (1).jpeg" alt="Suco de laranja">
-                <h3>Suco de laranja</h3>
+                <h3><a href="#">Suco de laranja</a></h3>
                 <p>R$ 10,00</p>
+                <button class="add-to-cart">Adicionar</button>
             </div>
             <div class="item">
                 <img src="./img/images (1).jpeg" alt="Cerveja">
-                <h3>Cerveja</h3>
+                <h3><a href="#">Cerveja</a></h3>
                 <p>R$ 12,00</p>
+                <button class="add-to-cart">Adicionar</button>
+
             </div>
         </div>
     </div>
     </div>
+    <div id="aba" class="aba">
+        <h2>Meu carrinho</h2>
+        <ul id="carrinho-itens"></ul>
+        <p id="total">Total: R$ 0,00</p>
+    </div>
     <footer>
-        <p> (11) 98338-6370 | Jardim edda, 25a |  @Emerson.zs_ | @stxrly.zs</p>
+        <p> (11) 98338-6370 | Jardim edda, 25a | @Emerson.zs_ | @stxrly.zs</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>

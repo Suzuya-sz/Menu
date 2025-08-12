@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     color: gray;
-    line-height: 1.5;
+
 }
 
 header {
@@ -26,12 +26,27 @@ header p {
     font-size: 20px;
 }
 
+
+.carrinho {
+    background: white;
+    color: #8b5e3c;
+    padding: 8px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#conta {
+    background: red;
+    color: white;
+    padding: 2px 6px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+
 .cardapio {
-    margin-bottom: 30px;
-    max-width: 1000px;  
     margin-left: auto;
-    margin-right: auto; 
-    padding: 20px;
+    margin-right: auto;
 }
 
 .cardapio h2 {
@@ -51,10 +66,9 @@ header p {
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     width: 200px;
     text-align: center;
-    transition: transform 0.2s;
 }
 
 .item:hover {
@@ -75,6 +89,12 @@ header p {
     font-weight: bold;
     color: #8b5e3c;
     margin-bottom: 10px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
 }
 
 footer {
