@@ -42,6 +42,14 @@ header p {
     margin-left: 5px;
     border-radius: 50%;
 }
+.add-to-cart {
+    background-color: #8b5e3c;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 
 .cardapio {
